@@ -1,0 +1,30 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+.top-banner{
+    display:flex;
+    margin-left: 40px;
+}
+.name-color{
+    color: rgb(228, 49, 79);
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,rgb(238, 20, 30));
+    color: #000;
+    padding: 10px;
+    border-radius: 4px;
+}
+.max-width{
+    width: 50%;
+}
+.max-width img{
+    width: 80%;
+}
