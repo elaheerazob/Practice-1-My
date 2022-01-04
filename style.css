@@ -10,7 +10,11 @@ h2{
 }
 .top-banner{
     display:flex;
-    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
 }
 .name-color{
     color: rgb(228, 49, 79);
@@ -24,7 +28,44 @@ h2{
 }
 .max-width{
     width: 50%;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 .max-width img{
     width: 80%;
+}
+.dream-Big{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box-bg{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+.box{
+    width: 45%;
+    box-shadow: 10px 5px 5px black;
+    /* margin: 0,5%px,0,5%; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 15px;
+    
+    
+}
+.full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+    
+}
+.baby-Web{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
